@@ -154,6 +154,7 @@ button:focus{
     width: 100%;
     height: 80vh;
     position: relative;
+    transform: translateY(-40px);
 }
 
 .banner_content{
@@ -166,7 +167,6 @@ button:focus{
 }
 
 .banner_part .row{
-    background: #eee;
     align-content: center;
     height: 100%;
     align-items: center;
@@ -177,11 +177,41 @@ button:focus{
     position: relative;
 }
 
+
+
+.banner_img{
+    opacity: 0;
+}
+
+
 .banner_main_text{
     position: absolute;
-    bottom: 0;
+    bottom: -30px;
     text-align: center;
+    opacity: 0;
 
+}
+
+.home_line{
+    opacity: 0;
+}
+
+.left_line{
+    position: absolute;
+    background: #707070;
+    width: 250px;
+    height: 3px;
+    top: 54%;
+    left: -275px;
+}
+
+.right_line{
+    position: absolute;
+    background: #707070;
+    width: 250px;
+    height: 3px;
+    top: 54%;
+    right: -275px;
 }
 
 .banner_text a{
@@ -190,15 +220,53 @@ button:focus{
     font-family: nato-reg;
 }
 
+.banner_text a:hover{
+    color: #222;
+}
+
 .banner_text .banner_left_link{
     position: absolute;
     left: 0;
-    top: 50%;
-    transform: translateX(-200px);
+    top: 45%;
+    opacity: 0;
+    transform: translateX(-150px);
 }
+
 .banner_text .banner_right_link{
     position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateX(200px);
+    right: -130px;
+    opacity: 0;
+    top: 40%;
+    transform: translateX(126px);
+}
+
+
+
+.banner_main_text h2{
+    color: #3F3D44;
+    font-size: 40px;
+    font-family: nato-reg;
+
+}
+
+.banner_main_text p{
+    color: #3F3D44;
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-family: nato-reg;
+
+}
+
+.read_more_btn{
+    font-size: 20px !important;
+    font-weight: bold;
+    color: #3F3D44 !important;
+    transform: translateY(20px);
+    font-family: nato-reg;
+}
+
+
+
+.read_more_btn:hover{
+    color: #000;
 }
