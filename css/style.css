@@ -1,0 +1,204 @@
+
+
+/* ===============================
+        Table of Content
+        ----------------
+  ----------------------------
+
+  1. common css
+  2. menu bar css
+  3. banner part css
+
+================================== */
+
+
+/* =================================
+        Common CSS 
+=================================== */
+@font-face{
+    font-family: noto-reg;
+    src: url(../fonts/NotoSansBengaliUI-Regular.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a,a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+
+span{
+    display: inline-block;
+}
+
+ul li{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+    padding: 0;
+}
+
+button:focus{
+    outline: 0;
+}
+
+
+
+
+/* =================================
+        menu bar css
+=================================== */
+.menuBar{
+    padding: 40px 0;
+}
+
+.logo{
+    width: 60px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.logo_title{
+    font-size: 20px;
+    display: inline-block;
+    font-family: nato-reg;
+    font-weight: bold;
+    margin-left: 15px;
+    vertical-align: middle;
+    transition: all linear .2s;
+    color: #707070;
+    opacity: 0;
+
+}
+
+#menu_btn{
+    width: 37px;
+    height: 37px;
+    border: 3px solid #707070;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.btn-center{
+    text-align: right !important;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menuBar .container{
+    position: relative;
+}
+
+
+.menu_list{
+    position: absolute;
+    right:0 ;
+    top: 70px;
+    text-align: right;
+    z-index: 99;
+    opacity: 0;
+    transition: all linear .2s;
+}
+
+.menu_list ul li{
+    line-height: 40px;
+}
+
+.menu_list ul li:first-child{
+    padding-bottom: 40px;
+}
+
+.menu_list ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #707070;
+    font-family: nato-reg;
+    transition: all linear .2s;
+
+}
+
+.menu_list ul li a:hover{
+    color: #222;
+}
+
+
+/* =================================
+        banner part css
+=================================== */
+
+.banner_part{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+.banner_content{
+    width: 1530px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.banner_part .row{
+    background: #eee;
+    align-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.banner_text{
+    max-height: 900px;
+    position: relative;
+}
+
+.banner_main_text{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+
+}
+
+.banner_text a{
+    color: #3F3D44;
+    font-size: 40px;
+    font-family: nato-reg;
+}
+
+.banner_text .banner_left_link{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateX(-200px);
+}
+.banner_text .banner_right_link{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateX(200px);
+}
