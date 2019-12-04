@@ -8,6 +8,7 @@
   1. common css
   2. menu bar css
   3. banner part css
+  4. after-war page round image
 
 ================================== */
 
@@ -75,6 +76,8 @@ button:focus{
     width: 60px;
     cursor: pointer;
     display: inline-block;
+    background: #fff;
+    border-radius: 40%;
 }
 
 .logo img{
@@ -154,7 +157,7 @@ button:focus{
     width: 100%;
     height: 80vh;
     position: relative;
-    transform: translateY(-40px);
+    transform: translate(-40px);
 }
 
 .banner_content{
@@ -163,7 +166,7 @@ button:focus{
     position: absolute;
     top: 0;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%);
 }
 
 .banner_part .row{
@@ -234,9 +237,9 @@ button:focus{
 
 .banner_text .banner_right_link{
     position: absolute;
-    right: -130px;
+    right: -180px;
     opacity: 0;
-    top: 40%;
+    top: 42%;
     transform: translateX(126px);
 }
 
@@ -270,3 +273,55 @@ button:focus{
 .read_more_btn:hover{
     color: #000;
 }
+
+
+/* =================================
+     after-war page round image
+=================================== */
+.afWarMenu{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+.afterwar_round_image{
+   
+    position: fixed;
+    right: 50%;
+    transform: translate(50%, -50%);
+    top: 50%;
+    width: 740px;
+}
+
+
+.image_layer_1{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background: black;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+}
+
+.image_layer_2{
+    width: 720px;
+    height: 690px;
+    border-radius: 50%;
+    background: #DEC7B4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image_layer_3{
+    width: 740px;
+    height: 670px;
+    border-radius: 50%;
+    background: #ECE2DA;
+    position: relative;
+}
+

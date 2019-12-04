@@ -7,7 +7,7 @@ $(document).ready(function() {
 (function(){ 
   $(".banner_img").animate({
     'opacity':1,
- }, 2000,
+ }, 1000,
   function(){
  
    $(".home_line").animate({
@@ -40,6 +40,63 @@ $(document).ready(function() {
  
 
  })();
+
+
+ 
+/*=====================================
+        after-war page animation
+====================================== */
+(function(){ 
+  
+     setTimeout(function(){
+
+      $(".image_layer_2").css({
+        'background':'#969696',
+      })
+
+      $(".image_layer_3").css({
+        'background':'#C6C6C6',
+      })
+
+     },1000)
+
+    $(".bongobondhu").animate({
+
+      'opacity':0,
+
+    },1500, function () {
+         
+         var wid = $(window).height();
+
+         $(".image_layer_1").animate({
+            'width': wid + 200,
+            'height':wid + 200,
+         },1000)
+
+         $(".image_layer_2").animate({
+          'width': wid + 220,
+          'height':wid + 180,
+         },1000)
+
+         $(".image_layer_3").animate({
+          'width': wid + 250,
+          'height':wid + 160,
+         },1000)
+
+         $(".afterwar_round_image").animate({
+           'right': '15%',
+           'transform':'translate(0, -50%)'
+         },1000)
+
+      });
+
+
+
+
+     
+
+ })();
+
 
 
 /*=====================================
