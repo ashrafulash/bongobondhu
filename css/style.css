@@ -325,3 +325,7 @@ button:focus{
     position: relative;
 }
 
+.after_war_content{
+    opacity: 0;
+    padding-top: 200px;
+}

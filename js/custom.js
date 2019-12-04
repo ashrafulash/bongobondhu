@@ -86,7 +86,13 @@ $(document).ready(function() {
          $(".afterwar_round_image").animate({
            'right': '15%',
            'transform':'translate(0, -50%)'
-         },1000)
+         },1000, function () {
+              
+          $(".after_war_content").animate({
+            'opacity':1,
+          })
+
+           })
 
       });
 
