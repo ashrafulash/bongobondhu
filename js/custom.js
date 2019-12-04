@@ -1,3 +1,5 @@
+$(document).ready(function() { 
+
 
 /*=====================================
         Home Page Animatio
@@ -79,3 +81,11 @@ toggleEvent($("#menu_btn"), $(".menu_list"))
    
 
 })();
+
+
+
+
+
+
+
+ })
