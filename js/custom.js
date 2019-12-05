@@ -92,6 +92,10 @@ $(document).ready(function() {
             'opacity':1,
           })
 
+          $(".right_content").animate({
+            'opacity':1,
+          })
+
            })
 
       });
@@ -140,6 +144,7 @@ toggleEvent($("#home_logo"), $(".logo_title"))
 
 //toggle menu list
 toggleEvent($("#menu_btn"), $(".menu_list"))
+toggleEvent($("#menu_btn"), $(".right_content"))
 
    
 

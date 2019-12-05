@@ -329,3 +329,52 @@ button:focus{
     opacity: 0;
     padding-top: 200px;
 }
+
+.afWarMenu .menu_list ul li a{
+    color: #ddd !important;
+}
+
+
+.afWarMenu .menu_list ul li a:hover{
+    color: #fff !important;
+}
+
+.right_content{
+    position: fixed;
+    z-index: 999;
+    color: #fff;
+    font-family: nato-reg;
+    max-width: 320px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10%;
+    opacity: 0;
+}
+
+.right_content p{
+    font-size: 18px;
+}
+
+
+.right_content h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right_content a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 40px;
+    position: relative;
+}
+
+.right_content a:after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 350px;
+    left: 0;
+    background: #fff;
+    height: 3px;
+}
