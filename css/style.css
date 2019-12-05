@@ -78,7 +78,7 @@ button:focus{
     cursor: pointer;
     display: inline-block;
     background: #fff;
-    border-radius: 40%;
+    border-radius: 50%;
 }
 
 .logo img{
@@ -434,4 +434,94 @@ button:focus{
     left: 0;
 }
 
+.post_image{
+    max-height: 370px;
 
+}
+
+.post_image img{
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+
+.post_content{
+    font-family: arial;
+}
+
+.post_content h2{
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.post_content p{
+    font-size: 18px;
+    color: #222;
+    margin-top: 15px;
+}
+
+.post_content a{
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    position: relative;
+    margin-top: 10px;
+}
+
+.post_content a:after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 350px;
+    left: 0;
+    background: #222;
+    height: 3px;
+}
+
+
+.pagination{
+    padding: 80px 0 120px 0;
+}
+.pagination ul li:first-child{
+    padding-bottom: 20px;
+}
+
+.pagination p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    position: relative;
+    display: inline;
+}
+
+.pagination p:after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 350px;
+    left: 0;
+    background: #222;
+    height: 3px;
+}
+
+.pagination a{
+    color: #949494;
+    font-size: 20px;
+    margin-right: 10px;
+    font-family: nato-reg;
+}
+
+.pagination a.active{
+    color: #222;
+}
+
+.pagination a:hover{
+    color: #222;
+}
+
+.pagination ul{
+    width: 320px;
+    text-align: left;
+    margin: 0 auto;
+    transform: translateX(100px);
+}
