@@ -1,4 +1,3 @@
-$(document).ready(function() { 
 
 /*=====================================
         Home Page Animatio
@@ -45,11 +44,17 @@ $(document).ready(function() {
 ====================================== */
 (function () { 
    
-  var war_offset = $("#rc_top").offset().top;
+  var pele = $(".offTop")
 
- $(".after_war_content").css({
-    'padding-top':war_offset - 40,
- })
+  if(pele.length){
+    var off = pele.offset().top
+
+    $(".after_war_content").css({
+       'padding-top':off - 40,
+    })
+  }else{
+    console.log('not working')
+  }
 
  })();
 
@@ -176,8 +181,3 @@ toggleEvent($("#menu_btn"), $(".right_content"))
 
 
 
-
-
-
-
- })
