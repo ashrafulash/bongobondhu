@@ -1,6 +1,5 @@
 $(document).ready(function() { 
 
-
 /*=====================================
         Home Page Animatio
 ====================================== */
@@ -41,6 +40,18 @@ $(document).ready(function() {
 
  })();
 
+/*=====================================
+        Design solution
+====================================== */
+(function () { 
+   
+  var war_offset = $("#rc_top").offset().top;
+
+ $(".after_war_content").css({
+    'padding-top':war_offset - 40,
+ })
+
+ })();
 
  
 /*=====================================
@@ -66,7 +77,14 @@ $(document).ready(function() {
 
     },1500, function () {
          
+
+         
          var wid = $(window).height();
+
+         $("#menu_btn").css({
+           'background':'transparent',
+           'border-color':'#fff',
+         });
 
          $(".image_layer_1").animate({
             'width': wid + 200,
@@ -94,6 +112,12 @@ $(document).ready(function() {
 
           $(".right_content").animate({
             'opacity':1,
+          }, function(){
+
+            $(".left_content_bottom").animate({
+              'opacity':1,
+            })
+
           })
 
            })

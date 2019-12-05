@@ -9,6 +9,7 @@
   2. menu bar css
   3. banner part css
   4. after-war page round image
+  5. after-war left content
 
 ================================== */
 
@@ -278,6 +279,10 @@ button:focus{
 /* =================================
      after-war page round image
 =================================== */
+.afterwar_part{
+    max-width: 2500px;
+    margin: 0 auto;
+}
 .afWarMenu{
     position: fixed;
     z-index: 9999;
@@ -325,10 +330,6 @@ button:focus{
     position: relative;
 }
 
-.after_war_content{
-    opacity: 0;
-    padding-top: 200px;
-}
 
 .afWarMenu .menu_list ul li a{
     color: #ddd !important;
@@ -378,3 +379,59 @@ button:focus{
     background: #fff;
     height: 3px;
 }
+/* =================================
+     after-war left content
+=================================== */
+.after_war_content{
+    opacity: 0;
+}
+.afterwar_banner_image{
+    height: 450px;
+    background: gray;
+    border-top-right-radius: 225px;
+    border-bottom-right-radius: 225px;
+    overflow: hidden;
+    max-width: 900px;
+    position: relative;
+    box-shadow: 22px 2px 0px -7px #959595, 39px 2px 0px -13px #C7C7C7;
+}
+.left_content_bottom{
+    opacity: 0;
+}
+
+.left_inner_content{
+    font-family: noto-reg;
+    padding-left: 70px;
+    margin-bottom: 200px;
+}
+
+.left_inner_content h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.left_inner_content p{
+    font-size: 20px;
+    max-width: 560px;
+}
+
+.left_inner_content a{
+    color: #222;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    position: relative;
+    padding-top: 10px;
+}
+
+.left_inner_content a::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    height: 3px;
+    width: 350px;
+    background: #222;
+    left: 0;
+}
+
+
