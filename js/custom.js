@@ -52,8 +52,6 @@
     $(".after_war_content").css({
        'padding-top':off - 40,
     })
-  }else{
-    console.log('not working')
   }
 
  })();
@@ -135,7 +133,40 @@
      
 
  })();
+/*=====================================
+      history Page animation
+====================================== */
+(function(){
+   
+  var dh = $(window).height();
 
+  $(".timeLine-1").animate({
+    'opacity':1,
+
+  }, 1000,function(){
+
+    $(".history_main_image").animate({
+      'width': dh + 320,
+      'height': dh + 320,
+      'right': '20%',
+   }, 800, function(){
+      
+    $(".history_content").animate({
+      'opacity':1,
+    })
+
+   })
+
+  })
+
+
+
+
+
+
+
+
+})();
 
 
 /*=====================================
