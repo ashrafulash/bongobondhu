@@ -11,6 +11,7 @@
   4. after-war page round image
   5. after-war left content
   6. history-page
+  7. detail page css
 
 ================================== */
 
@@ -626,4 +627,117 @@ button:focus{
 
 .history_content ul li a:hover{
     color: #000;
+}
+
+
+/* =================================
+        detail page css
+=================================== */
+.detail_banner{
+    position: relative;
+    height: 100vh;
+    background: url(../images/detailImage.jpg)no-repeat center;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.shape{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 220px;
+    z-index: 999;
+}
+
+.detail_page .menu_list{
+    background: rgba(0, 0, 0, 0.753);
+    padding: 80px 50px;
+    top: -6px;
+    z-index: -1;
+}
+
+.detail_page .menu_list ul li{
+    line-height: 60px;
+}
+
+.text_detail p{
+    margin-top: 30px;
+    font-family: arial;
+    line-height: 26px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.text_detail h4{
+    font-weight: lighter;
+    padding-top: 20px;
+    line-height: 40px;
+    font-size: 23px;
+}
+
+.text_detail h2{
+    color: #000;
+    font-size: 22px;
+    padding: 100px 0;
+}
+
+
+.paraShape{
+    margin-top: 15px;
+    display: block;
+    
+
+}
+
+.detail_banner_text{
+    color: #fff;
+    text-align: center;
+    width: 600px;
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.detail_banner_text h1{
+    font-size: 55px;
+    font-weight: bolder;
+    text-shadow:0 0 30px rgba(0, 0, 0, 0.6);
+  
+    
+}
+
+.suggesation_part{
+    max-width: 2200px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.detail_banner_text h4{
+    font-size: 34px;
+    font-weight: lighter;
+    padding-top: 40px;
+    text-shadow:0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.more_article{
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    position: relative;
+    margin-top: 10px;
+}
+
+.more_article:hover{
+    color: #000;
+}
+
+.more_article:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 350px;
+    left: 0;
+    background: #222;
+    height: 3px;
 }
