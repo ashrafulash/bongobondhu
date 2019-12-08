@@ -133,6 +133,7 @@
      
 
  })();
+
 /*=====================================
       history Page animation
 ====================================== */
@@ -167,6 +168,43 @@
 
 
 })();
+
+
+/*=====================================
+      know Page animation
+====================================== */
+(function(){
+   
+  var dh = $(window).height();
+
+  $(".timeLine-11").animate({
+    'opacity':1,
+
+  }, 1000,function(){
+
+    $(".know_main_image").animate({
+      'width': dh + 320,
+      'height': dh + 320,
+      'left': '20%',
+   }, 800, function(){
+      
+    $(".know_content").animate({
+      'opacity':1,
+    })
+
+   })
+
+  })
+
+
+
+
+
+
+
+
+})();
+
 
 
 /*=====================================
@@ -205,6 +243,7 @@ toggleEvent($("#home_logo"), $(".logo_title"))
 //toggle menu list
 toggleEvent($("#menu_btn"), $(".menu_list"))
 toggleEvent($("#menu_btn"), $(".right_content"))
+toggleEvent($("#menu_btn"), $(".know_content"))
 
    
 

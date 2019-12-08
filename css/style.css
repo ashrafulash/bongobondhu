@@ -12,6 +12,7 @@
   5. after-war left content
   6. history-page
   7. detail page css
+  8. know page css
 
 ================================== */
 
@@ -740,4 +741,110 @@ button:focus{
     left: 0;
     background: #222;
     height: 3px;
+}
+
+
+
+/* =================================
+        know page css
+=================================== */
+.knowPage{
+    position: relative;
+    z-index: 999;
+}
+.know_page{}
+
+.know_main_image{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background: gray;
+}
+
+.know_img{
+    position: relative;
+    margin: 0 auto;
+}
+.know_img:after{
+    width: 103%;
+    height: 97%;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #959595;
+    border-radius: 50%;
+}
+
+.know_img:before{
+    width: 106%;
+    height: 95%;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #c7c7c7;
+    border-radius: 50%;
+}
+
+
+.know_img img{
+    border-radius: 50%;
+    position: relative;
+    z-index: 99;
+    opacity: 0;
+}
+
+.know_content{
+    position: fixed;
+    top: 50%;
+    width: 500px;
+    left: 60%;
+    transform: translateY(-50%);
+    text-align: left;
+    font-family: rato-reg;
+    opacity: 0;
+}
+
+.know_content h2{
+    font-size: 36px;
+    color: #3F3D44;
+    position: relative;
+    margin-bottom: 80px;
+    font-weight: bold;
+}
+
+.know_content h2::after{
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    height: 3px;
+    left: 0;
+    width: 300px;
+    background: #3F3D44;
+}
+
+.know_content p{
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.know_content ul li{
+    line-height: 40px;
+}
+
+.know_content ul li a{
+    font-size: 20px;
+    color:#3F3D44;
+    font-weight: bold;
+}
+
+.know_content ul li a:hover{
+    color: #000;
 }
