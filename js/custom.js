@@ -903,6 +903,32 @@ function checkAllMedium(){
          $(".menu_list").toggle()
       })
 
+
+      $(".changeBtn_one").click(function () {
+        
+        $(".hcOne").addClass("d-none")
+        $(".tm-1").addClass("d-none")
+     
+        $(".hcTwo").removeClass("d-none")
+        $(".tm-2").removeClass("d-none")
+     
+     
+       })
+     
+     
+       $(".changeBtn").click(function () {
+         
+         $(".hcTwo").addClass("d-none")
+         $(".tm-2").addClass("d-none")
+     
+         $(".hcOne").removeClass("d-none")
+         $(".tm-1").removeClass("d-none")
+      
+       
+      
+      
+        })
+
  
   
   })();

@@ -354,6 +354,8 @@
         overflow-x: hidden;
     }
 
+
+
     .menu_list{
         display: none;
         opacity: 1;
@@ -391,6 +393,10 @@
         font-family: nato-reg;
         padding: 25px 0;
     }
+    .changeBtn, .changeBtn_one{
+        transform: translateX(0);
+        margin-right: 0;
+    }
 
 
     .banner_text .banner_left_link,
@@ -418,6 +424,7 @@
         padding-bottom: 40px;
         padding: 0 44px 50px 50px;
     }
+
 
     .know_content h2::after{
         left: 50%;
@@ -669,6 +676,11 @@
 
     .timeLine-11{
         opacity: 1 !important;
+    }
+
+    .changeBtn, .changeBtn_one{
+        transform: translateX(0);
+        margin-right: 0;
     }
 
 
