@@ -1,0 +1,997 @@
+
+@media (max-width: 575.98px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .banner_content{
+        width: 100%;
+    }
+
+    .menu_list{
+        display: none;
+        opacity: 1;
+        background: #eee;
+        padding: 20px 30px;
+    }
+
+    .timeLine-11{
+        opacity: 1 !important;
+    }
+    .banner_text .banner_left_link, .banner_text .banner_right_link {
+        position: static;
+        transform: translateX(0);
+        margin-top: 38px;
+        border: 1px solid #ddd;
+        padding: 15px 38px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    .banner_text .banner_left_link:hover, .banner_text .banner_right_link:hover{
+        background: #444;
+        color: #fff;
+    }
+
+    .left_line,
+    .right_line{
+        display: none;
+    }
+
+    .banner_main_text p {
+        color: #3F3D44;
+        font-size: 16px;
+        padding-bottom: 10px;
+        font-family: nato-reg;
+        padding: 25px 0;
+    }
+
+
+    .banner_text .banner_left_link,
+    .home_line,
+    .banner_text .banner_right_link,
+    .banner_main_text,
+    .banner_main_text,
+    .logo_title{
+        opacity: 1 !important;
+    }
+
+
+    
+    .banner_text{
+        width: 90%;
+        height: 300px;
+        text-align: center;
+    }
+    .banner_main_text h2{
+        font-size: 31px;
+    }
+    .banner_img{
+        opacity: 1;
+    }
+
+    .w-center{
+        display: flex;
+        justify-content: center;
+
+    }
+    .banner_part .row{
+        height: 70%;
+    }
+    .banner_part{
+        transform: translateX(0);
+    }
+
+
+    .banner_text a{
+        font-size: 30px;
+    }
+
+    .left_line{
+        top: 60%;
+        width: 200px;
+        left: -250px;
+    }
+
+    .right_line{
+        top: 60%;
+        width: 200px;
+        right: -250px;
+    }
+
+    .banner_main_text {
+        position: static;
+        bottom: -33px;
+        text-align: center;
+        opacity: 0;
+        padding-top: 42px;
+        min-width: 100%;
+        padding-bottom: 100px;
+      
+        transform: translateX(0);
+    }
+
+    .image_layer_1{
+        width: 350px;
+        height: 350px;
+    }
+    .image_layer_2{
+        width: 360px;
+        height: 340px;
+    }
+
+    .image_layer_3{
+        width: 380px;
+        height: 330px;
+    }
+    .afterwar_round_image{
+        width: 380px;
+        position: absolute;
+    }
+    .afterwar_round_image {
+        width: 740px;
+        right: 50%;
+        top: 10%;
+        transform: translate(92%, 45%);
+    }
+
+    .right_content {
+        top: 10%;
+        right: 6%;
+        max-width: 478px;
+        /* background: gainsboro; */
+        transform: translate(-138px , -50%);
+        position: absolute;
+    }
+    .right_content p{
+        font-size: 16px;
+    }
+
+    .afterwar_banner_image{
+        height: 400px;
+    }
+
+    .left_inner_content{
+        padding-left: 0;
+        padding-bottom: 100px;
+        margin-bottom: 0;
+    }
+
+    .afWarMenu{
+        position: absolute;
+    }
+    .left_inner_content h2{
+        font-size: 35px;
+    }
+    
+
+
+  
+     .order-0{
+         order: -1;
+     }
+
+     .left_content_bottom{
+         opacity: 1;
+     }
+
+
+
+     .post_content {
+        font-family: arial;
+        position: a;
+        transform: translateX(126px);
+    }
+
+    .more_article{
+        margin-top: 280px;
+    }
+
+    .history_content p{
+        padding-bottom: 30px;
+    }
+    .history_content{
+        width: 380px;
+    }
+
+    .know_content{
+        width: 380px;
+    }
+
+    .history_content{
+        position: static;
+        transform: translateY(0);
+    }
+
+    .history_content p{
+        font-size: 16px;
+    }
+
+    .history_content ul li a{
+        font-size: 18px;
+    }
+
+    .history_main_image{
+        width: 500px;
+        height: 500px;
+    }
+
+    .know_main_image{
+        width: 500px;
+        height: 500px;
+    }
+
+   
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    body{
+        overflow-x: hidden;
+    }
+
+    .menu_list{
+        display: none;
+        opacity: 1;
+        background: #eee;
+        padding: 20px 30px;
+    }
+
+    .timeLine-11{
+        opacity: 1 !important;
+    }
+    .banner_text .banner_left_link, .banner_text .banner_right_link {
+        position: static;
+        transform: translateX(0);
+        margin-top: 38px;
+        border: 1px solid #ddd;
+        padding: 15px 38px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    .banner_text .banner_left_link:hover, .banner_text .banner_right_link:hover{
+        background: #444;
+        color: #fff;
+    }
+
+    .left_line,
+    .right_line{
+        display: none;
+    }
+
+    .banner_main_text p {
+        color: #3F3D44;
+        font-size: 16px;
+        padding-bottom: 10px;
+        font-family: nato-reg;
+        padding: 25px 0;
+    }
+
+
+    .banner_text .banner_left_link,
+    .home_line,
+    .banner_text .banner_right_link,
+    .banner_main_text,
+    .banner_main_text,
+    .logo_title{
+        opacity: 1 !important;
+    }
+
+
+    
+    .banner_text{
+        width: 350px;
+        height: 350px;
+        text-align: center;
+    }
+    .banner_img{
+        opacity: 1;
+    }
+
+    .w-center{
+        display: flex;
+        justify-content: center;
+
+    }
+    .banner_part .row{
+        height: 70%;
+    }
+    .banner_part{
+        transform: translateX(0);
+    }
+
+
+    .banner_text a{
+        font-size: 30px;
+    }
+
+    .left_line{
+        top: 60%;
+        width: 200px;
+        left: -250px;
+    }
+
+    .right_line{
+        top: 60%;
+        width: 200px;
+        right: -250px;
+    }
+
+    .banner_main_text {
+        position: static;
+        bottom: -33px;
+        text-align: center;
+        opacity: 0;
+        padding-top: 42px;
+        min-width: 100%;
+        padding-bottom: 100px;
+      
+        transform: translateX(0);
+    }
+
+    .image_layer_1{
+        width: 350px;
+        height: 350px;
+    }
+    .image_layer_2{
+        width: 360px;
+        height: 340px;
+    }
+
+    .image_layer_3{
+        width: 380px;
+        height: 330px;
+    }
+    .afterwar_round_image{
+        width: 380px;
+        position: absolute;
+    }
+    .afterwar_round_image {
+        width: 740px;
+        right: 50%;
+        top: 10%;
+        transform: translate(92%, 45%);
+    }
+
+    .right_content {
+        top: 10%;
+        right: 6%;
+        max-width: 478px;
+        /* background: gainsboro; */
+        transform: translate(-138px , -50%);
+        position: absolute;
+    }
+    .right_content p{
+        font-size: 16px;
+    }
+
+    .afterwar_banner_image{
+        height: 400px;
+    }
+
+    .left_inner_content{
+        padding-left: 0;
+        padding-bottom: 100px;
+        margin-bottom: 0;
+    }
+
+    .afWarMenu{
+        position: absolute;
+    }
+    .left_inner_content h2{
+        font-size: 35px;
+    }
+    
+
+
+  
+     .order-0{
+         order: -1;
+     }
+
+     .left_content_bottom{
+         opacity: 1;
+     }
+
+
+
+     .post_content {
+        font-family: arial;
+        position: a;
+        transform: translateX(126px);
+    }
+
+    .more_article{
+        margin-top: 280px;
+    }
+
+    .history_content p{
+        padding-bottom: 30px;
+    }
+    .history_content{
+        width: 380px;
+    }
+
+    .know_content{
+        width: 380px;
+    }
+
+    .history_content{
+        position: static;
+        transform: translateY(0);
+    }
+
+    .history_content p{
+        font-size: 16px;
+    }
+
+    .history_content ul li a{
+        font-size: 18px;
+    }
+
+    .history_main_image{
+        width: 500px;
+        height: 500px;
+    }
+
+    .know_main_image{
+        width: 500px;
+        height: 500px;
+    }
+
+   
+
+    
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .menu_list{
+        display: none;
+        opacity: 1;
+        background: #eee;
+        padding: 20px 30px;
+    }
+
+    .timeLine-11{
+        opacity: 1 !important;
+    }
+
+
+    .banner_text .banner_left_link,
+    .home_line,
+    .banner_text .banner_right_link,
+    .banner_main_text,
+    .banner_main_text,
+    .logo_title{
+        opacity: 1 !important;
+    }
+
+    .banner_text .banner_right_link{
+        transform: translateX(-39px);
+    }
+    
+    .banner_text{
+        width: 350px;
+        height: 350px;
+    }
+    .banner_img{
+        opacity: 1;
+    }
+
+    .w-center{
+        display: flex;
+        justify-content: center;
+
+    }
+    .banner_part .row{
+        height: 70%;
+    }
+    .banner_part{
+        transform: translateX(0);
+    }
+
+
+    .banner_text a{
+        font-size: 30px;
+    }
+
+    .left_line{
+        top: 60%;
+        width: 200px;
+        left: -250px;
+    }
+
+    .right_line{
+        top: 60%;
+        width: 200px;
+        right: -250px;
+    }
+
+    .banner_main_text {
+        position: static;
+        bottom: -33px;
+        text-align: center;
+        opacity: 0;
+        padding-top: 42px;
+        min-width: 600px;
+        padding-bottom: 100px;
+      
+        transform: translateX(-25%);
+    }
+
+    .image_layer_1{
+        width: 350px;
+        height: 350px;
+    }
+    .image_layer_2{
+        width: 360px;
+        height: 340px;
+    }
+
+    .image_layer_3{
+        width: 380px;
+        height: 330px;
+    }
+    .afterwar_round_image{
+        width: 380px;
+        position: absolute;
+    }
+    .afterwar_round_image {
+        width: 740px;
+        right: 50%;
+        top: 10%;
+        transform: translate(92%, 45%);
+    }
+
+    .right_content {
+        top: 10%;
+        right: 6%;
+        max-width: 478px;
+        /* background: gainsboro; */
+        transform: translate(-138px , -50%);
+        position: absolute;
+    }
+    .right_content p{
+        font-size: 16px;
+    }
+
+    .afterwar_banner_image{
+        height: 400px;
+    }
+
+    .left_inner_content{
+        padding-left: 0;
+        padding-bottom: 100px;
+        margin-bottom: 0;
+    }
+
+    .afWarMenu{
+        position: absolute;
+    }
+    .left_inner_content h2{
+        font-size: 35px;
+    }
+    
+
+
+  
+     .order-0{
+         order: -1;
+     }
+
+     .left_content_bottom{
+         opacity: 1;
+     }
+
+
+
+     .post_content {
+        font-family: arial;
+        position: a;
+        transform: translateX(126px);
+    }
+
+    .more_article{
+        margin-top: 280px;
+    }
+
+    .history_content p{
+        padding-bottom: 30px;
+    }
+    .history_content{
+        width: 380px;
+    }
+
+    .know_content{
+        width: 380px;
+    }
+
+    .history_content{
+        position: static;
+        transform: translateY(0);
+    }
+
+    .history_content p{
+        font-size: 16px;
+    }
+
+    .history_content ul li a{
+        font-size: 18px;
+    }
+
+    .history_main_image{
+        width: 500px;
+        height: 500px;
+    }
+
+    .know_main_image{
+        width: 500px;
+        height: 500px;
+    }
+
+   
+
+
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    body{
+        overflow-x: hidden;
+    }
+    .banner_text{
+        width: 350px;
+        height: 350px;
+    }
+    .banner_img{
+        opacity: 1;
+    }
+
+    .w-center{
+        display: flex;
+        justify-content: center;
+
+    }
+    .banner_part .row{
+        height: 70%;
+    }
+    .banner_part{
+        transform: translateX(0);
+    }
+
+
+    .banner_text a{
+        font-size: 30px;
+    }
+
+    .left_line{
+        top: 60%;
+        width: 200px;
+        left: -250px;
+    }
+
+    .right_line{
+        top: 60%;
+        width: 200px;
+        right: -250px;
+    }
+
+    .banner_main_text {
+        position: static;
+        bottom: -33px;
+        text-align: center;
+        opacity: 0;
+        padding-top: 42px;
+        min-width: 600px;
+        padding-bottom: 100px;
+      
+        transform: translateX(-25%);
+    }
+
+    .image_layer_1{
+        width: 350px;
+        height: 350px;
+    }
+    .image_layer_2{
+        width: 360px;
+        height: 340px;
+    }
+
+    .image_layer_3{
+        width: 380px;
+        height: 330px;
+    }
+    .afterwar_round_image{
+        width: 380px;
+        position: absolute;
+    }
+    .afterwar_round_image {
+        width: 740px;
+        right: 50%;
+        top: 10%;
+        transform: translate(92%, 45%);
+    }
+
+    .right_content {
+        top: 10%;
+        right: 6%;
+        max-width: 478px;
+        /* background: gainsboro; */
+        transform: translate(-138px , -50%);
+        position: absolute;
+    }
+    .right_content p{
+        font-size: 16px;
+    }
+
+    .afterwar_banner_image{
+        height: 400px;
+    }
+
+    .left_inner_content{
+        padding-left: 0;
+        padding-bottom: 100px;
+        margin-bottom: 0;
+    }
+
+    .afWarMenu{
+        position: absolute;
+    }
+    .left_inner_content h2{
+        font-size: 35px;
+    }
+    
+
+
+    .no-flex {
+        flex: 95%;
+        max-width: 76%;
+        opacity: 1;
+    } 
+
+     .order-0{
+         order: -1;
+     }
+
+     .left_content_bottom{
+         opacity: 1;
+     }
+
+     .afterwar_banner{
+         padding-top: 100vh;
+     }
+
+     .post_image{
+         max-height: 100%;
+     }
+
+     .post_content {
+        font-family: arial;
+        position: a;
+        transform: translateX(126px);
+    }
+
+    .more_article{
+        margin-top: 280px;
+    }
+
+    .history_content p{
+        padding-bottom: 30px;
+    }
+    .history_content{
+        width: 380px;
+    }
+
+    .know_content{
+        width: 380px;
+    }
+
+    .history_content{
+        position: static;
+        transform: translateY(0);
+    }
+
+    .history_content p{
+        font-size: 16px;
+    }
+
+    .history_content ul li a{
+        font-size: 18px;
+    }
+
+    .history_main_image{
+        width: 500px;
+        height: 500px;
+    }
+
+    .know_main_image{
+        width: 500px;
+        height: 500px;
+    }
+
+   
+
+
+
+ }
+
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  
+    .banner_part{
+        transform: translate(0);
+    }
+
+    .banner_text{
+        width: 650px;
+    }
+
+    .w-center{
+        display: flex;
+        justify-content: center;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+    .banner_text a{
+        font-size: 30px;
+    }
+    .left_line{
+        width: 200px;
+        left: -250px;
+    }
+    .right_line{
+        width: 200px;
+        right: -250px;
+    }
+
+    .banner_main_text h2{
+        font-size: 30px;
+    }
+
+    .banner_main_text p{
+        font-size: 16px;
+    }
+    .read_more_btn{
+    font-size: 18px !important;
+    margin-bottom: 30px;
+    }
+    .menu_list ul li:first-child{
+        padding-bottom: 11px;
+    }
+
+    .menu_list ul li a{
+        font-size: 16px;
+    }
+    .menu_list ul li{
+        line-height: 35px;
+    }
+
+
+    .image_layer_1{
+        width: 500px;
+        height: 500px;
+    }
+    .image_layer_2{
+        width: 520px;
+        height: 490px;
+    }
+    .image_layer_3{
+        width: 540px;
+        height: 480px;
+    }
+
+    .afterwar_round_image{
+        width: 540px;
+    }
+
+    .right_content{
+        max-width: 300px;
+        right: 3%;
+    }
+
+    .right_content p{
+        font-size: 16px;
+    }
+    .right_content a{
+        margin-top: 30px;
+    }
+
+    .afterwar_banner_image{
+        height: 380px;
+    }
+
+    .left_inner_content{
+        padding-left: 0;
+        padding-bottom: 100px;
+        margin-bottom: 0;
+    }
+
+    .left_inner_content h2{
+        font-size: 34px;
+    }
+
+    .post_content h2{
+        font-size: 24px;
+    }
+
+    .post_content p{
+        font-size: 16px;
+    }
+    .post_content a{
+        font-size: 18px;
+    }
+    .pagination {
+        padding: 47px 0 120px 0;
+    }
+    .detail_banner_text{
+        bottom: 100px;
+    }
+    .detail_page .menu_list {
+        background: rgba(0, 0, 0, 0.753);
+        padding: 20px 50px;
+        top: 63px;
+        z-index: -1;
+    }
+
+    .detail_page .menu_list ul li{
+        line-height: 45px`;
+    }
+
+    .know_main_image{
+        width: 500px;
+        height: 500px;
+    }
+
+    .know_content{
+        width: 400px;
+    }
+
+    .know_content h2{
+        margin-bottom: 45px;
+    }
+    .know_content p{
+        font-size: 18px;
+    }
+    .know_content p{
+        padding-bottom: 30px;
+    }
+
+    .history_main_image{
+        width: 500px;
+        height: 500px;
+    }
+
+    .history_content{
+        width: 400px;
+    }
+    .history_content h2{
+        margin-bottom: 50px;
+    }
+    .history_content p{
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+  
+    .history_content{
+        position: static;
+        right: 55%;
+        transform: translateY(-10%);
+    }
+    .history_content p{
+        font-size: 16px;
+        padding-left: 60px;
+    }
+    .changeBtn, .changeBtn_one{
+        margin-right: 23%;
+    }
+
+ }

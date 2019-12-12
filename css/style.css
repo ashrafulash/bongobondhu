@@ -848,3 +848,13 @@ button:focus{
 .know_content ul li a:hover{
     color: #000;
 }
+
+.changeBtn, .changeBtn_one{
+    margin-right: 50%;
+    transform: translateX(80%);
+    cursor: pointer;
+}
+
+.changeBtn{
+    transform: rotate(180deg);
+}
