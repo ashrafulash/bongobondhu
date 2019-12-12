@@ -33,6 +33,10 @@
         color: #fff;
     }
 
+    .afWarMenu .menu_list{
+        background: #000 !important;
+    }
+
     .left_line,
     .right_line{
         display: none;
@@ -54,9 +58,83 @@
     .banner_main_text,
     .logo_title,
     .history_img img,
-    .know_content{
+    .know_content,
+    .right_content,
+    .after_war_content{
         opacity: 1 !important;
     }
+
+    .pagination {
+        padding: 29px 0 120px 0;
+    }
+
+    .right_content a::after{
+        display: none;
+    }
+
+    .afterwar_banner_image{
+        box-shadow: none;
+        overflow: unset;
+    }
+
+    .left_inner_content h2{
+        padding-top: 40px;
+    }
+
+    .post_image img{
+        border-radius: 0;
+    }
+
+    .post_image{
+        max-height: 100% !important;
+    }
+
+
+
+    .right_content{
+        color: #222;
+        transform: translate(0,0) !important;
+        position: static !important;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .afWarMenu{
+        position: static;
+    }
+
+    .afterwar_round_image{
+        width: 380px;
+        position: absolute;
+    }
+    .afterwar_round_image {
+	width: 740px;
+	right: 0;
+	top: 0;
+	transform: translate(0, 0);
+	position: static;
+	 width: 100%;
+}
+ 
+
+     .image_layer_3 {
+	width: 372px;
+	height: 350px;
+	border-radius: 50%;
+	background: #ECE2DA;
+    position: relative;
+    margin: 0 auto;
+     }
+    .image_layer_1{
+        width: 350px;
+        height: 350px;
+    }
+    .image_layer_2{
+        width: 360px;
+        height: 340px;
+    }
+
 
     .detail_banner_text{
         width: 100%;
@@ -67,6 +145,7 @@
     .detail_page .menu_list{
         padding: 20px 50px;
         top: 80px;
+        z-index: 99;
     }
     .post_content h2{
         font-size: 22px;
@@ -189,28 +268,20 @@
     }
 
     .image_layer_1{
-        width: 350px;
-        height: 350px;
+        width: 305px;
+        height: 290px;
     }
-    .image_layer_2{
-        width: 360px;
-        height: 340px;
+    .image_layer_2 {
+        width: 323px;
+        height: 288px;
     }
 
     .image_layer_3{
-        width: 380px;
-        height: 330px;
+        width: 330px;
+        height: 280px;
     }
-    .afterwar_round_image{
-        width: 380px;
-        position: absolute;
-    }
-    .afterwar_round_image {
-        width: 740px;
-        right: 50%;
-        top: 10%;
-        transform: translate(92%, 45%);
-    }
+  
+ 
 
     .right_content {
         top: 10%;
@@ -225,7 +296,13 @@
     }
 
     .afterwar_banner_image{
-        height: 400px;
+        height: 100%;
+    }
+
+    .left_inner_content a::after,
+    .post_content a::after,
+    .pagination p::after{
+        width: 100%;
     }
 
     .left_inner_content{
@@ -234,9 +311,7 @@
         margin-bottom: 0;
     }
 
-    .afWarMenu{
-        position: absolute;
-    }
+
     .left_inner_content h2{
         font-size: 35px;
     }
@@ -385,6 +460,10 @@
         padding: 20px 30px;
     }
 
+    .afWarMenu .menu_list{
+        background: #000;
+    }
+
     .timeLine-11{
         opacity: 1 !important;
     }
@@ -419,6 +498,9 @@
         transform: translateX(0);
         margin-right: 0;
     }
+    .changeBtn_one{
+        transform: rotate(180deg);
+    }
 
 
     .banner_text .banner_left_link,
@@ -429,9 +511,76 @@
     .logo_title,
     .history_img img,
     .history_content,
-    .know_content{
+    .know_content,
+    .right_content,
+    .after_war_content{
         opacity: 1 !important;
     }
+
+    .right_content a::after{
+        display: none;
+    }
+
+    .afterwar_banner_image{
+        box-shadow: none;
+        overflow: unset;
+    }
+
+    .left_inner_content h2{
+        padding-top: 40px;
+    }
+
+    .post_image img{
+        border-radius: 0;
+    }
+
+    .post_image{
+        max-height: 100% !important;
+    }
+
+
+
+    .right_content{
+        color: #222;
+        transform: translate(0,0) !important;
+        position: static !important;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .afWarMenu{
+        position: static;
+    }
+
+   
+    .afterwar_round_image {
+	width: 740px;
+	right: 0;
+	top: 0;
+	transform: translate(0, 0);
+	position: static;
+	 width: 100%;
+}
+
+     .image_layer_3 {
+	width: 372px;
+	height: 350px;
+	border-radius: 50%;
+	background: #ECE2DA;
+    position: relative;
+    margin: 0 auto;
+     }
+    .image_layer_1{
+        width: 350px;
+        height: 350px;
+    }
+    .image_layer_2{
+        width: 360px;
+        height: 340px;
+    }
+
+
 
     
 
@@ -599,29 +748,8 @@
         transform: translateX(0);
     }
 
-    .image_layer_1{
-        width: 350px;
-        height: 350px;
-    }
-    .image_layer_2{
-        width: 360px;
-        height: 340px;
-    }
+  
 
-    .image_layer_3{
-        width: 380px;
-        height: 330px;
-    }
-    .afterwar_round_image{
-        width: 380px;
-        position: absolute;
-    }
-    .afterwar_round_image {
-        width: 740px;
-        right: 50%;
-        top: 10%;
-        transform: translate(92%, 45%);
-    }
 
     .right_content {
         top: 10%;
@@ -636,7 +764,11 @@
     }
 
     .afterwar_banner_image{
-        height: 400px;
+        height: auto;
+    }
+
+    .post_content h2{
+        font-size: 30px;
     }
 
     .left_inner_content{
@@ -645,9 +777,7 @@
         margin-bottom: 0;
     }
 
-    .afWarMenu{
-        position: absolute;
-    }
+
 
   
      .order-0{
@@ -699,6 +829,16 @@
         overflow-x: hidden;
     }
 
+    .right_content{
+        max-width: 450px;
+    }
+
+    .left_inner_content{
+        margin-bottom: 100px;
+    }
+
+    
+
     .know_content p {
         font-size: 20px;
         padding-bottom: 40px;
@@ -710,6 +850,9 @@
         background: #eee;
         padding: 20px 30px;
     }
+    .afWarMenu .menu_list{
+        background: #000;
+    }
 
     .timeLine-11{
         opacity: 1 !important;
@@ -720,6 +863,9 @@
         margin-right: 0;
     }
 
+    .changeBtn_one{
+        transform: rotate(180deg);
+    }
 
     .banner_text .banner_left_link,
     .home_line,
@@ -729,7 +875,9 @@
     .logo_title,
     .history_img img,
     .history_content,
-    .know_content{
+    .know_content,
+    .after_war_content,
+    .right_content{
         opacity: 1 !important;
     }
 
@@ -849,6 +997,61 @@
         transform: translateX(-25%);
     }
 
+    .right_content a::after{
+        display: none;
+    }
+
+    .afterwar_banner_image{
+        box-shadow: none;
+        overflow: unset;
+        height: auto;
+    }
+
+    .left_inner_content h2{
+        padding-top: 40px;
+    }
+
+    .post_image img{
+        border-radius: 0;
+    }
+
+    .post_image{
+        max-height: 100% !important;
+    }
+
+
+
+    .right_content{
+        color: #222;
+        transform: translate(0,0) !important;
+        position: static !important;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .afWarMenu{
+        position: static;
+    }
+
+   
+    .afterwar_round_image {
+	width: 740px;
+	right: 0;
+	top: 0;
+	transform: translate(0, 0);
+	position: static;
+	 width: 100%;
+}
+
+     .image_layer_3 {
+	width: 372px;
+	height: 350px;
+	border-radius: 50%;
+	background: #ECE2DA;
+    position: relative;
+    margin: 0 auto;
+     }
     .image_layer_1{
         width: 350px;
         height: 350px;
@@ -856,50 +1059,6 @@
     .image_layer_2{
         width: 360px;
         height: 340px;
-    }
-
-    .image_layer_3{
-        width: 380px;
-        height: 330px;
-    }
-    .afterwar_round_image{
-        width: 380px;
-        position: absolute;
-    }
-    .afterwar_round_image {
-        width: 740px;
-        right: 50%;
-        top: 10%;
-        transform: translate(92%, 45%);
-    }
-
-    .right_content {
-        top: 10%;
-        right: 6%;
-        max-width: 478px;
-        /* background: gainsboro; */
-        transform: translate(-138px , -50%);
-        position: absolute;
-    }
-    .right_content p{
-        font-size: 16px;
-    }
-
-    .afterwar_banner_image{
-        height: 400px;
-    }
-
-    .left_inner_content{
-        padding-left: 0;
-        padding-bottom: 100px;
-        margin-bottom: 0;
-    }
-
-    .afWarMenu{
-        position: absolute;
-    }
-    .left_inner_content h2{
-        font-size: 35px;
     }
     
 
@@ -1048,26 +1207,43 @@
     .image_layer_3{
         width: 380px;
         height: 330px;
-    }
-    .afterwar_round_image{
-        width: 380px;
-        position: absolute;
-    }
-    .afterwar_round_image {
-        width: 740px;
-        right: 50%;
-        top: 10%;
-        transform: translate(92%, 45%);
+        transform: scale(1.7);
     }
 
-    .right_content {
-        top: 10%;
-        right: 6%;
-        max-width: 478px;
-        /* background: gainsboro; */
-        transform: translate(-138px , -50%);
-        position: absolute;
+    .afWarMenu{
+        position: static;
     }
+
+    .afterwar_round_image {
+        width: 740px;
+        right: 5%;
+        top: 120px;
+        transform: translate(50%, 0);
+        position: absolute;
+        width: 100%;
+    }
+
+    .after_war_content {
+        opacity: 0;
+        padding-top: 100vh;
+    }
+
+
+.right_content{
+    color: #222;
+    transform: translate(0,0) !important;
+    position: static !important;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    opacity: 1;
+    max-width: 500px;
+    display: none;
+}
+
+.right_content a::after{
+    display: none;
+}
     .right_content p{
         font-size: 16px;
     }
@@ -1082,9 +1258,7 @@
         margin-bottom: 0;
     }
 
-    .afWarMenu{
-        position: absolute;
-    }
+
     .left_inner_content h2{
         font-size: 35px;
     }
@@ -1105,9 +1279,7 @@
          opacity: 1;
      }
 
-     .afterwar_banner{
-         padding-top: 100vh;
-     }
+ 
 
      .post_image{
          max-height: 100%;
@@ -1133,7 +1305,10 @@
     .know_content{
         width: 380px;
     }
-
+    .post_image img {
+        border-top-right-radius: 270px;
+        border-bottom-right-radius: 270px;
+    }
 
 
     .history_content p{
