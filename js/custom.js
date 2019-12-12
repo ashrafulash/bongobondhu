@@ -900,7 +900,7 @@ function checkAllMedium(){
   (function(){
     //toggle  event
       $("#menu_btn").click(function(){
-         $(".menu_list").slideToggle()
+         $(".menu_list").toggle()
       })
 
  
