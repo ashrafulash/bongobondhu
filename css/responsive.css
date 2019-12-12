@@ -52,7 +52,8 @@
     .banner_text .banner_right_link,
     .banner_main_text,
     .banner_main_text,
-    .logo_title{
+    .logo_title,
+    .history_img img{
         opacity: 1 !important;
     }
 
@@ -201,6 +202,9 @@
     .history_content{
         position: static;
         transform: translateY(0);
+        width: 100%;
+        opacity: 1;
+        padding: 40px 0 80px 0;
     }
 
     .history_content p{
@@ -219,6 +223,54 @@
     .know_main_image{
         width: 500px;
         height: 500px;
+    }
+
+
+    .history_content ul li {
+        display: inline-block;
+        line-height: 69px;
+    }
+
+    .history_content ul li a{
+        line-height: 40px;
+        display: inline-block;
+        border: 1px solid #ddd;
+        padding: 5px 24px;
+        border-radius: 5px;
+    }
+    .history_content ul li a:hover{
+        background: #222;
+        color: #fff;
+    }
+    .history_content h2{
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .history_content p {
+        font-size: 16px;
+        padding: 22px 9px;
+        text-align: center;
+    }
+    .history_content h2::after{
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+
+    .history_content p{
+        font-size: 16px;
+    }
+
+    .history_content ul li a{
+        font-size: 18px;
+    }
+
+    .history_main_image {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        position: static;
+        transform: translateX(0);
     }
 
    
@@ -274,8 +326,54 @@
     .banner_text .banner_right_link,
     .banner_main_text,
     .banner_main_text,
-    .logo_title{
+    .logo_title,
+    .history_img img,
+    .history_content{
         opacity: 1 !important;
+    }
+    .history_content{
+        width: 100% !important;
+        padding: 40px 0 80px 0;
+        text-align: center;
+    }
+    .history_content ul li{
+        display: inline-block;
+    }
+
+    .history_content ul li a{
+        line-height: 40px;
+        display: inline-block;
+        border: 1px solid #ddd;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    .history_content ul li a:hover{
+        background: #222;
+        color: #fff;
+    }
+    .history_content h2{
+        margin-bottom: 25px;
+    }
+    .history_content p {
+        font-size: 16px;
+        padding: 22px 65px;
+    }
+    .history_content h2::after{
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+
+    .history_content p{
+        font-size: 16px;
+    }
+
+
+    .history_main_image{
+        position: static;
+        transform: translateX(0);
+        margin: 0 auto;
     }
 
 
@@ -469,7 +567,9 @@
     .banner_text .banner_right_link,
     .banner_main_text,
     .banner_main_text,
-    .logo_title{
+    .logo_title,
+    .history_img img,
+    .history_content{
         opacity: 1 !important;
     }
 
@@ -615,8 +715,38 @@
 
     .history_content{
         position: static;
+        width: 100%;
+        padding: 40px 0 80px 0;
+        text-align: center;
         transform: translateY(0);
     }
+    .history_content ul li{
+        display: inline-block;
+    }
+
+    .history_content ul li a{
+        line-height: 40px;
+        display: inline-block;
+        border: 1px solid #ddd;
+        padding: 5px 24px;
+        border-radius: 5px;
+    }
+    .history_content ul li a:hover{
+        background: #222;
+        color: #fff;
+    }
+    .history_content h2{
+        margin-bottom: 25px;
+    }
+    .history_content p {
+        font-size: 16px;
+        padding: 22px 65px;
+    }
+    .history_content h2::after{
+        right: 50%;
+        transform: translateX(50%);
+    }
+
 
     .history_content p{
         font-size: 16px;
@@ -629,6 +759,9 @@
     .history_main_image{
         width: 500px;
         height: 500px;
+        position: static;
+        transform: translate(0);
+        margin: 0 auto;
     }
 
     .know_main_image{
@@ -649,6 +782,9 @@
     .banner_text{
         width: 350px;
         height: 350px;
+    }
+    .history_content h2{
+        margin-bottom: 45px;
     }
     .banner_img{
         opacity: 1;
@@ -793,10 +929,7 @@
         width: 380px;
     }
 
-    .history_content{
-        position: static;
-        transform: translateY(0);
-    }
+
 
     .history_content p{
         font-size: 16px;
