@@ -14,7 +14,9 @@
         background: #eee;
         padding: 20px 30px;
     }
-
+    .changeBtn, .changeBtn_one{
+        font-size: 65px;
+    }
     .timeLine-11{
         opacity: 1 !important;
     }
@@ -31,6 +33,18 @@
     .banner_text .banner_left_link:hover, .banner_text .banner_right_link:hover{
         background: #444;
         color: #fff;
+    }
+
+    .home-page-slide{
+        padding: 15px;
+    }
+    .home-page-slide::after {
+        width: 95%;
+        height: 89%;
+    }
+    .home-page-slide::before {
+        width: 99%;
+        height: 91%;
     }
 
     .afWarMenu .menu_list{
@@ -481,6 +495,19 @@
         background: #444;
         color: #fff;
     }
+    
+
+    .home-page-slide{
+        padding: 15px;
+    }
+    .home-page-slide::after {
+        width: 95%;
+        height: 89%;
+    }
+    .home-page-slide::before {
+        width: 99%;
+        height: 91%;
+    }
 
     .left_line,
     .right_line{
@@ -867,6 +894,18 @@
         transform: rotate(180deg);
     }
 
+    .home-page-slide{
+        padding: 15px;
+    }
+    .home-page-slide::after {
+        width: 95%;
+        height: 89%;
+    }
+    .home-page-slide::before {
+        width: 99%;
+        height: 91%;
+    }
+
     .banner_text .banner_left_link,
     .home_line,
     .banner_text .banner_right_link,
@@ -1166,6 +1205,17 @@
         transform: translateX(0);
     }
 
+    .home-page-slide{
+        padding: 15px;
+    }
+    .home-page-slide::after {
+        width: 95%;
+        height: 89%;
+    }
+    .home-page-slide::before {
+        width: 99%;
+        height: 91%;
+    }
 
     .banner_text a{
         font-size: 30px;

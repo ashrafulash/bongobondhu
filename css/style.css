@@ -188,6 +188,12 @@ button:focus{
 
 .banner_img{
     opacity: 0;
+    z-index: 99;
+    position: relative;
+}
+
+.slick-slider .slick-track, .slick-slider .slick-list{
+    z-index: 99;
 }
 
 
@@ -196,7 +202,38 @@ button:focus{
     bottom: -30px;
     text-align: center;
     opacity: 0;
+    z-index: 999;
 
+}
+
+.home-page-slide{
+    padding: 50px;
+    position: relative;
+}
+.home-page-slide::after {
+	position: absolute;
+	width: 90%;
+	height: 84%;
+    background: #E1CDBD;
+	content: '';
+	left: 50%;
+	top: 50%;
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+}
+.home-page-slide::before {
+	position: absolute;
+	width: 94%;
+	height: 84%;
+    background: #ECE2DA;
+	content: '';
+	left: 50%;
+	top: 50%;
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+}
+.home-page-slide img{
+    border-radius: 50%;
 }
 
 .home_line{
@@ -237,6 +274,7 @@ button:focus{
     top: 45%;
     opacity: 0;
     transform: translateX(-150px);
+    font-weight: bold;
 }
 
 .banner_text .banner_right_link{
@@ -245,6 +283,7 @@ button:focus{
     opacity: 0;
     top: 42%;
     transform: translateX(126px);
+    font-weight: bold;
 }
 
 
@@ -853,6 +892,7 @@ button:focus{
     margin-right: 50%;
     transform: translateX(80%);
     cursor: pointer;
+    font-size: 80px;
 }
 
 .changeBtn{

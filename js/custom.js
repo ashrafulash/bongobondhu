@@ -932,5 +932,76 @@ function checkAllMedium(){
  
   
   })();
-  
+   /*=====================================
+              home page fadeIn slider
+  ====================================== */
+
+  (function(){
+ 
+    $('.home-page-slide').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      arrows: false,
+      autoplay: true,
+      slidesToScroll: 1,
+      fade: true,
+      autoplaySpeed: 20000,
+      speed: 2000,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            arrows: false,
+            autoplay: true,
+            slidesToScroll: 1,
+            fade: true,
+            autoplaySpeed: 20000,
+            speed: 2000,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            arrows: false,
+            autoplay: true,
+            slidesToScroll: 1,
+            fade: true,
+            autoplaySpeed: 20000,
+            speed: 2000,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            arrows: false,
+            autoplay: true,
+            slidesToScroll: 1,
+            fade: true,
+            autoplaySpeed: 20000,
+            speed: 2000,
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+
+
+
+  }());
   
