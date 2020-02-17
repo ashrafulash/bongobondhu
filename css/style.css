@@ -107,6 +107,7 @@ button:focus{
     border: 3px solid #707070;
     background: #fff;
     border-radius: 50%;
+    z-index: 99;
 }
 
 .btn-center{
@@ -126,9 +127,16 @@ button:focus{
     right:0 ;
     top: 70px;
     text-align: right;
+    padding: 30px 20px;
     z-index: 99;
-    opacity: 0;
+    display: none;
+    background: rgba(255, 255, 255, 0.76);
     transition: all linear .2s;
+    z-index: 99;
+}
+
+.afWarMenu .menu_list{
+    background: transparent;
 }
 
 .menu_list ul li{

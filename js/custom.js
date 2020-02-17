@@ -259,7 +259,7 @@ function checkAll(){
 toggleEvent($("#home_logo"), $(".logo_title"))
 
 //toggle menu list
-toggleEvent($("#menu_btn"), $(".menu_list"))
+//toggleEvent($("#menu_btn"), $(".menu_list"))
 toggleEvent($("#menu_btn"), $(".right_content"))
 toggleEvent($("#menu_btn"), $(".know_content"))
 
@@ -546,7 +546,7 @@ function checkAllAverage(){
   toggleEvent($("#home_logo"), $(".logo_title"))
   
   //toggle menu list
-  toggleEvent($("#menu_btn"), $(".menu_list"))
+//  toggleEvent($("#menu_btn"), $(".menu_list"))
   toggleEvent($("#menu_btn"), $(".right_content"))
   toggleEvent($("#menu_btn"), $(".know_content"))
   
